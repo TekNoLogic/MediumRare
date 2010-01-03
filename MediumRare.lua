@@ -54,6 +54,6 @@ f:SetScript("OnUpdate", function(self, elap)
 			mobIDs[mobID] = nil
 		end
 	end
-	if seen then Print("To reset your cache, delete the file <wow path>/Cache/WDB/"..GetLocale().."/creaturecache.wdb") end
+	if seen then Print("To reset your cache log out of the game and delete the file <WoW>/Cache/WDB/"..GetLocale().."/creaturecache.wdb") end
 	firstscan = nil
 end)
