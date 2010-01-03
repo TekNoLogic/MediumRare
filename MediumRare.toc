@@ -1,0 +1,11 @@
+## Interface: 30300
+
+## Title: Medium Rare
+## Notes: Scans NPCs around you for rares
+## Author: Tekkub Stoutwrithe
+## Version: Alpha
+## X-Website: http://tekkub.net/
+## X-Email: tekkub-wow@googlegroups.com
+## X-Category: Misc
+
+MediumRare.lua
