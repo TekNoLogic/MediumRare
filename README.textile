@@ -1,0 +1,11 @@
+MediumRare is a simple rare NPC finder, inspired by "_NPCScan":http://www.wowinterface.com/downloads/info12995-_NPCScan.html
+
+MediumRare uses the game's cache to detect when a mob spawns.  If you run into a hunter that has a rare pet it will trigger the alert.  If you've already seen a mob that you have not killed (according to the achievements), MediumRare will give you instructions on how to clear the cache.
+
+Old-world rare mobs are not supported, as there are no achievements for them.
+
+h2. Links
+
+<b>Visit "my site":http://tekkub.net/ for more great addons<br>
+Please report all bugs and feature requests to my "Github tracker":http://github.com/tekkub/MediumRare/issues<br>
+Please direct all feedback and questions to my "Google Groups":http://groups-beta.google.com/group/tekkub-wow mailinglist.</b>
