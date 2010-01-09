@@ -8,4 +8,7 @@
 ## X-Email: tekkub-wow@googlegroups.com
 ## X-Category: Misc
 
+## LoadManagers: AddonLoader
+## X-LoadOn-NotResting: true
+
 MediumRare.lua
