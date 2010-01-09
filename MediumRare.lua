@@ -44,9 +44,11 @@ f:SetScript("OnUpdate", function(self, elap)
 		local name = Test(mobID)
 		if name then
 			if not firstscan then
-				PlaySoundFile("Interface\\AddOns\\MediumRare\\alert.wav")
-				RaidNotice_AddMessage(RaidBossEmoteFrame, "Found rare mob: "..name, ChatTypeInfo["RAID_WARNING"])
-				Print("Found rare mob:", name)
+				if not IsResting() then
+					PlaySoundFile("Interface\\AddOns\\MediumRare\\alert.wav")
+					RaidNotice_AddMessage(RaidBossEmoteFrame, "Found rare mob: "..name, ChatTypeInfo["RAID_WARNING"])
+					Print("Found rare mob:", name)
+				end
 			else
 				seen = true
 				Print("Already seen mob:", name)
