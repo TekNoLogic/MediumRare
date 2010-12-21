@@ -5,6 +5,41 @@ local myname, ns = ...
 local mobIDs = {
 	[33776] = true, -- Gondria
 	[38453] = true, -- Arcturis
+
+	-- Cataclysm
+	[50062] = true, -- Aeonaxx
+
+	[50409] = true, -- Mysterious Camel Figurine
+	[50410] = true, -- Mysterious Camel Figurine
+	[50411] = true, -- Mysterious Camel Figurine
+	[50051] = true, -- Ghostcrawler
+	[50058] = true, -- Terrorpene
+	[49822] = true, -- Jadefang
+	[51403] = true, -- Madexx (Black)
+	[51404] = true, -- Madexx (Blue)
+	[51401] = true, -- Madexx (Red)
+	[51402] = true, -- Madexx (Green)
+	[50154] = true, -- Madexx (Yellow)
+	[50159] = true, -- Sambas
+	[50138] = true, -- Karoma
+
+	[51079] = true, -- Captain Foulwind
+	[51071] = true, -- Captain Florence
+	[50005] = true, -- Poseidus
+	[50052] = true, -- Burgy Blackheart
+	[49913] = true, -- Lady LaLa
+	[50050] = true, -- Shok'sharak
+	[50053] = true, -- Thartuk the Exile
+	[50057] = true, -- Blazewing
+	[50060] = true, -- Terborus
+	[50059] = true, -- Golgarok
+	[50064] = true, -- Cyrus the Black
+	[50409] = true, -- Mysterious Camel Figurine
+	[50410] = true, -- Mysterious Camel Figurine
+	[50411] = true, -- Mysterious Camel Figurine
+	[50065] = true, -- Armagedillo
+	[50085] = true, -- Overlord Sunderfury
+	[50086] = true, -- Tarvus the Vile
 }
 
 
