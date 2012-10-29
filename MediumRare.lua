@@ -46,7 +46,7 @@ f:SetScript("OnUpdate", function(self, elap)
 				if not IsResting() then
 					PlaySoundFile("Interface\\AddOns\\MediumRare\\alert.wav")
 					RaidNotice_AddMessage(RaidBossEmoteFrame, "Found rare mob: "..name, ChatTypeInfo["RAID_WARNING"])
-					if UnitInParty('player') the
+					if UnitInParty('player') then
 						SendChatMessage("Found rare mob: ".. name, 'PARTY')
 					end
 					Print("Found rare mob:", name)
